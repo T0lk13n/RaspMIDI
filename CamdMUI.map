@@ -1,0 +1,280 @@
+Global M68K Construktors
+	_INIT_1_Intuition_c__IntuitionBase
+	_INIT_1_DOS_c__DOSBase
+	_INIT_2_MathIEEEDoubBas_c__MathIeeeDoubBasBase
+	_INIT_2_Icon_c__IconBase
+	_INIT_8_CamdMUI_c
+Global M68K Destruktors
+	_EXIT_2_Icon_c__IconBase
+	_EXIT_2_MathIEEEDoubBas_c__MathIeeeDoubBasBase
+	_EXIT_1_DOS_c__DOSBase
+	_EXIT_1_Intuition_c__IntuitionBase
+	_EXIT_0_Main
+No Global PPC Destruktors
+No Global PPC Destruktors
+
+M68K Code
+
+
+  Hunk #0 ( Far Public ) 13744 Bytes (0x35b0)
+  __startup68K = 0 (0x0) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Startups/Startup.o
+  _exit = 424 (0x1a8) referenced 2 times
+    File Work:Prog/StormC/Stormsys/Startups/Startup.o
+  _INIT_8_CamdMUI_c = 460 (0x1cc) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _wbmain = 482 (0x1e2) referenced 1 times
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _main = 500 (0x1f4) referenced 1 times
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _Show = 2496 (0x9c0) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _OpenLib = 2546 (0x9f2) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _CleanOut = 2664 (0xa68) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _SendSysExMsg = 2850 (0xb22) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _CreateSysExMsg = 2900 (0xb54) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _ChangeBank = 3626 (0xe2a) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _formatted_out = 4812 (0x12cc) referenced 1 times
+    File Work:Prog/StormC/Lib/Storm.lib
+  _sprintf = 6940 (0x1b1c) referenced 1 times
+    File Work:Prog/StormC/Lib/Storm.lib
+  _strcpy = 7004 (0x1b5c) referenced 1 times
+    File Work:Prog/StormC/Lib/Storm.lib
+  _strlen = 7032 (0x1b78) referenced 4 times
+    File Work:Prog/StormC/Lib/Storm.lib
+  _signed_out = 7060 (0x1b94) referenced 1 times
+    File Work:Prog/StormC/Lib/Storm.lib
+  _signed_out_l = 7714 (0x1e22) referenced 1 times
+    File Work:Prog/StormC/Lib/Storm.lib
+  _unsigned_out = 7804 (0x1e7c) referenced 1 times
+    File Work:Prog/StormC/Lib/Storm.lib
+  _unsigned_out_l = 8404 (0x20d4) referenced 2 times
+    File Work:Prog/StormC/Lib/Storm.lib
+  _char_out = 8932 (0x22e4) referenced 1 times
+    File Work:Prog/StormC/Lib/Storm.lib
+  _string_out = 9072 (0x2370) referenced 1 times
+    File Work:Prog/StormC/Lib/Storm.lib
+  _DoMethod = 9264 (0x2430) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _DoSuperMethod = 9284 (0x2444) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _CoerceMethod = 9310 (0x245e) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _CoerceMethodA = 9332 (0x2474) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _DoMethodA = 9368 (0x2498) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _DoSuperMethodA = 9388 (0x24ac) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _SetSuperAttrs = 9414 (0x24c6) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  GetProgramName = 9472 (0x2500) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _GetProgramName = 9472 (0x2500) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  FilePart = 9500 (0x251c) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _FilePart = 9500 (0x251c) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  AddPart = 9520 (0x2530) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _AddPart = 9520 (0x2530) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  VPrintf = 9548 (0x254c) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _VPrintf = 9548 (0x254c) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  AllocMem = 9576 (0x2568) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _AllocMem = 9576 (0x2568) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  FreeMem = 9600 (0x2580) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _FreeMem = 9600 (0x2580) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  FindTask = 9624 (0x2598) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _FindTask = 9624 (0x2598) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  CloseLibrary = 9644 (0x25ac) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _CloseLibrary = 9644 (0x25ac) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  OpenLibrary = 9664 (0x25c0) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _OpenLibrary = 9664 (0x25c0) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  EasyRequest = 9688 (0x25d8) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _EasyRequest = 9688 (0x25d8) referenced 2 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  SetAttrs = 9720 (0x25f8) unused, maybe local
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _SetAttrs = 9720 (0x25f8) referenced 1 times
+    File Work:Prog/StormC/Lib/Amiga.lib
+  _setjmp = 9744 (0x2610) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Math000.lib
+  _longjmp = 9760 (0x2620) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Math000.lib
+  _floor = 9780 (0x2634) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Math000.lib
+  _frexp = 9804 (0x264c) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Math000.lib
+  _double_out = 10460 (0x28dc) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Math000.lib
+  main() = 11928 (0x2e98) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  main(int,char **) = 11936 (0x2ea0) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _wbmain__FP9WBStartup = 11944 (0x2ea8) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  wbmain(WBStartup *) = 11944 (0x2ea8) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  main(int,char *) = 11952 (0x2eb0) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _EXIT_0_Main = 12424 (0x3088) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _INIT_1_DOS_c__DOSBase = 12476 (0x30bc) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _EXIT_1_DOS_c__DOSBase = 12512 (0x30e0) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _INIT_2_Icon_c__IconBase = 12548 (0x3104) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _EXIT_2_Icon_c__IconBase = 12584 (0x3128) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _InitModules = 12664 (0x3178) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _CleanupModules = 12748 (0x31cc) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _INIT_1_Intuition_c__IntuitionBase = 12816 (0x3210) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _EXIT_1_Intuition_c__IntuitionBase = 12852 (0x3234) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  LibBaseC::LibBaseC(char *,unsigned long,short) = 12920 (0x3278) referenced 4 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  LibBaseC::~LibBaseC() = 13336 (0x3418) referenced 4 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _INIT_2_MathIEEEDoubBas_c__MathIeeeDoubBasBase = 13368 (0x3438) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _EXIT_2_MathIEEEDoubBas_c__MathIeeeDoubBasBase = 13404 (0x345c) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  intdiv = 13452 (0x348c) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  uintdiv = 13490 (0x34b2) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  lib_div_uint = 13490 (0x34b2) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  ___uintdivmod32 = 13490 (0x34b2) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  lib_div_int = 13452 (0x348c) referenced 2 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  ___intdivmod32 = 13452 (0x348c) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  Neg64 = 13572 (0x3504) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  ___neg64 = 13572 (0x3504) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  SDiv64 = 13580 (0x350c) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  UDiv64 = 13620 (0x3534) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  ___uintdivmod64 = 13620 (0x3534) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  ___intdivmod64 = 13580 (0x350c) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  UMod64 = 13720 (0x3598) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  ___uintmod64 = 13720 (0x3598) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  SMod64 = 13732 (0x35a4) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+  ___intmod64 = 13732 (0x35a4) unused, maybe local
+    File Work:Prog/StormC/Stormsys/Lib/Stormcsupport000.lib
+
+PowerPC Code
+
+
+Data
+
+
+  Hunk #1 ( Far Public ) 716 Bytes (0x2cc)
+  _ver = 0 (0x0) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _about = 50 (0x32) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _ournode = 260 (0x104) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _outLink = 264 (0x108) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _midisig = 268 (0x10c) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _CurrentBank = 269 (0x10d) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _ShowRequester = 352 (0x160) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _MidiItems = 372 (0x174) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _MidiLinkTags = 412 (0x19c) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _DOSBase = 624 (0x270) referenced 6 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _IconBase = 628 (0x274) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _IntuitionBase = 640 (0x280) referenced 3 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _not_open__LibBaseC = 644 (0x284) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  _MathIeeeDoubBasBase = 648 (0x288) referenced 5 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  ___stacksize = 652 (0x28c) referenced 1 times
+    File Work:Prog/StormC/Stormsys/Lib/Stormcstartup000.lib
+  ___init_table68k = 656 (0x290) referenced 2 times
+    File <Internal Assembled>
+  ___exit_table68k = 688 (0x2b0) referenced 1 times
+    File <Internal Assembled>
+
+BSS
+
+
+  Hunk #2 ( Far Public ) 952 Bytes (0x3b8)
+  _SysBase = 0 (0x0) referenced 7 times
+    File Work:Prog/StormC/Stormsys/Startups/Startup.o
+  _sysexmsg = 176 (0xb0) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _app = 248 (0xf8) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _window = 252 (0xfc) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _menu = 256 (0x100) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _BTreboot = 260 (0x104) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _BTmt32mode = 264 (0x108) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _BTmt32old = 268 (0x10c) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _BTmt32new = 272 (0x110) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _BTcm32l = 276 (0x114) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _BTsfmode = 280 (0x118) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _BTsfless = 284 (0x11c) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _BTsfbank = 288 (0x120) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _BTsfmore = 292 (0x124) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _MUIMasterBase = 296 (0x128) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _CamdBase = 300 (0x12c) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+  _UserMidiPort = 304 (0x130) unused, maybe local
+    File Work:Prog/PROJECTS/CAMDMUI/objects_debug/CamdMUI.o
+
+END

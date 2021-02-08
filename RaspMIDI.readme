@@ -1,0 +1,48 @@
+Short: Raspberry MT-32 and SoundFont control
+Author: tolkien / goblins
+Uploader: lantolkien@gmail.com
+Type: mus/midi
+Architecture: m68k-amigaos
+Version: 1.0
+
+
+RaspMIDI 1.0
+------------
+RaspMIDI is a tool to control the MT-32 and SounfFont
+Baremetal kernel for RaspberryPi made by Dale:
+github.com/dwhinham/mt32-pi
+
+
+Code:
+-----
+tolkien / goblins
+lantolkien at gmail.com
+
+Requirements:
+-------------
+An Amiga
+Camd.library
+MUI
+MIDI interface to connect your Amiga to the Raspberry
+
+Configuration:
+--------------
+You only have to edit the edit the
+MIDIPORT tooltype (default: out.0)
+
+Usage:
+------
+Reboot         -> Reboot RaspBerry
+MT-32 mode     -> Change to MT-32 mode
+Rom type       -> Change to different MT-32 roms
+SoundFont mode -> Change to SoundFont mode
+SoundFont bank -> Change to different SoundFonts banks
+
+Thanks to:
+----------
+Edu Arana for making all that great hardware
+Estrayk for betatesting
+Spanish Amicoders telegram group
+
+
+
